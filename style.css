@@ -1,0 +1,160 @@
+* {
+    font-family: Roboto, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button {
+    color: #3882F6;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 10px 40px 20px 40px;
+    gap: 100px;
+}
+
+.hero img {
+    width: 300px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin: auto;
+}
+
+h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: flex-start;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    gap: 10px;
+    list-style: none;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.info img {
+    width: 150px;
+    border-radius: 15px;
+    border: 2px solid #3882F6;
+    height: 150px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.card {
+    justify-content: space-between;
+    background-color: #3882F6;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 14px;
+}
+
+.footer p {
+    font-size: 8px;
+}
+
+.topline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero p, .hero ul {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+img {
+    display: flex;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
