@@ -4,6 +4,8 @@ This is a practice CSS project from the Odin Project. I will be creating an enti
 
 Demonstrated skills:
 
-HTML
-CSS
-Flexbox
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Flexbox</li>
+</ul>
